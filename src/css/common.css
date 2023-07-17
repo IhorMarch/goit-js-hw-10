@@ -20,17 +20,17 @@ img {
     margin-left: 20px;
     margin-bottom: 5px;
     border: 1px solid #FFFFFF;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-        border-radius: 4px;
-        width: 300px;
-        min-height: 40px;
-        margin-bottom: 16px;
-        padding: 8px 16px;
-        color: #2d034b;
-        background-color: rgb(230, 224, 223);
-        font-size: 12px;
-        line-height: 2;
-        letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 300px;
+     min-height: 40px;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    color: #2d034b;
+    background-color: rgb(230, 224, 223);
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
     
 }
 

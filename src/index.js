@@ -26,7 +26,8 @@ ref.loader.insertAdjacentHTML('beforeend', '<span class="load"></span>')
 fetchBreeds()
   .then(data => {
     ref.select.hidden = false
-    
+    ref.select.insertAdjacentHTML(
+      'beforeend', `<option value="" disabled selected  >Please, select Your cat</option`);
     data.map(breed =>
       ref.select.insertAdjacentHTML(
         'beforeend',
@@ -52,6 +53,8 @@ ref.select.addEventListener('change', onChangeClick);
 
 function onChangeClick() {
   const selected = ref.select.value;
+   ref.info.innerHTML = ''
+   ref.loader.hidden = false;
   fetchCatByBreed(selected)
     .then(data => {
       ref.error.hidden = true;
